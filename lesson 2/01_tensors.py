@@ -19,6 +19,6 @@ bias = torch.randn((1, 1))
 # y = f(w*x + b)
 # y = activation(weights*features + bias)
 
-y = activation(torch.sum(torch.mn(features, weights.view(5, 1)), bias))
+y = activation(torch.mm(features, weights.view(5, 1)) + bias)
 
 print(y)

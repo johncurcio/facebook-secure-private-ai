@@ -4,5 +4,5 @@ This is a repo to document my progress on the udacity facebook scholarship progr
 
 ## TODO
 
-[] Add all solutions in python
+- [ ] Add all solutions in python
 
